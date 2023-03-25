@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <buyer>
+    <name>Wiley E. Coyote</name>
+  </buyer>
+  <vendor>
+    <name>Acme Inc.</name>
+    <phone>0825452467</phone>
+  </vendor>
+  <items>
+    <lineItem>
+      <description>anti-Roadrunner cannon</description>
+      <quantity>1</quantity>
+      <cost>599.99</cost>
+    </lineItem>
+  </items>
+</purchaseOrder>

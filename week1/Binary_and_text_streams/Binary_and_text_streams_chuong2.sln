@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_and_text_streams_chuong2", "Binary_and_text_streams_chuong2.csproj", "{8745EE8D-9066-41A5-86F7-1CA0D0A4034F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8745EE8D-9066-41A5-86F7-1CA0D0A4034F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8745EE8D-9066-41A5-86F7-1CA0D0A4034F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8745EE8D-9066-41A5-86F7-1CA0D0A4034F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8745EE8D-9066-41A5-86F7-1CA0D0A4034F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A1F11A7-CD7B-48EE-8435-128A6ADB033B}
+	EndGlobalSection
+EndGlobal
