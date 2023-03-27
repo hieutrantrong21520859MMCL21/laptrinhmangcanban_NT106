@@ -56,5 +56,13 @@ namespace ThucHanhTuan1
             form5.ShowDialog();
             this.Show();
         }
+
+        private void btnBai6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmForm6 form6 = new frmForm6();
+            form6.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -33,6 +33,7 @@
             this.btnBai5 = new System.Windows.Forms.Button();
             this.btnBai2 = new System.Windows.Forms.Button();
             this.btnBai4 = new System.Windows.Forms.Button();
+            this.btnBai6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnBai1
@@ -90,11 +91,23 @@
             this.btnBai4.UseVisualStyleBackColor = true;
             this.btnBai4.Click += new System.EventHandler(this.btnBai4_Click);
             // 
+            // btnBai6
+            // 
+            this.btnBai6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBai6.Location = new System.Drawing.Point(210, 215);
+            this.btnBai6.Name = "btnBai6";
+            this.btnBai6.Size = new System.Drawing.Size(75, 38);
+            this.btnBai6.TabIndex = 5;
+            this.btnBai6.Text = "Bài 6";
+            this.btnBai6.UseVisualStyleBackColor = true;
+            this.btnBai6.Click += new System.EventHandler(this.btnBai6_Click);
+            // 
             // frmForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 311);
+            this.Controls.Add(this.btnBai6);
             this.Controls.Add(this.btnBai4);
             this.Controls.Add(this.btnBai2);
             this.Controls.Add(this.btnBai5);
@@ -113,6 +126,7 @@
         private System.Windows.Forms.Button btnBai5;
         private System.Windows.Forms.Button btnBai2;
         private System.Windows.Forms.Button btnBai4;
+        private System.Windows.Forms.Button btnBai6;
     }
 }
 
