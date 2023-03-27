@@ -48,7 +48,7 @@
             this.lblScores.Location = new System.Drawing.Point(12, 55);
             this.lblScores.Name = "lblScores";
             this.lblScores.Size = new System.Drawing.Size(76, 20);
-            this.lblScores.TabIndex = 0;
+            this.lblScores.TabIndex = 2;
             this.lblScores.Text = "Điểm số:";
             // 
             // txtScores
@@ -57,7 +57,7 @@
             this.txtScores.Location = new System.Drawing.Point(105, 52);
             this.txtScores.Name = "txtScores";
             this.txtScores.Size = new System.Drawing.Size(491, 27);
-            this.txtScores.TabIndex = 1;
+            this.txtScores.TabIndex = 3;
             // 
             // lstStudent
             // 
@@ -75,7 +75,7 @@
             this.btnPrint.Location = new System.Drawing.Point(626, 12);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(162, 57);
-            this.btnPrint.TabIndex = 3;
+            this.btnPrint.TabIndex = 4;
             this.btnPrint.Text = "Xuất";
             this.btnPrint.UseVisualStyleBackColor = true;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
@@ -86,7 +86,7 @@
             this.btnAverage.Location = new System.Drawing.Point(626, 89);
             this.btnAverage.Name = "btnAverage";
             this.btnAverage.Size = new System.Drawing.Size(162, 57);
-            this.btnAverage.TabIndex = 4;
+            this.btnAverage.TabIndex = 5;
             this.btnAverage.Text = "Điểm trung bình";
             this.btnAverage.UseVisualStyleBackColor = true;
             this.btnAverage.Click += new System.EventHandler(this.btnAverage_Click);
@@ -97,7 +97,7 @@
             this.btnFind.Location = new System.Drawing.Point(626, 166);
             this.btnFind.Name = "btnFind";
             this.btnFind.Size = new System.Drawing.Size(162, 57);
-            this.btnFind.TabIndex = 5;
+            this.btnFind.TabIndex = 6;
             this.btnFind.Text = "Điểm";
             this.btnFind.UseVisualStyleBackColor = true;
             this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
@@ -108,7 +108,7 @@
             this.btnCount.Location = new System.Drawing.Point(626, 243);
             this.btnCount.Name = "btnCount";
             this.btnCount.Size = new System.Drawing.Size(162, 57);
-            this.btnCount.TabIndex = 6;
+            this.btnCount.TabIndex = 7;
             this.btnCount.Text = "Đậu/Rớt";
             this.btnCount.UseVisualStyleBackColor = true;
             this.btnCount.Click += new System.EventHandler(this.btnCount_Click);
@@ -120,7 +120,7 @@
             this.lblName.Location = new System.Drawing.Point(12, 9);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(86, 20);
-            this.lblName.TabIndex = 7;
+            this.lblName.TabIndex = 0;
             this.lblName.Text = "Họ và tên:";
             // 
             // txtName
@@ -129,7 +129,7 @@
             this.txtName.Location = new System.Drawing.Point(105, 9);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(491, 27);
-            this.txtName.TabIndex = 8;
+            this.txtName.TabIndex = 1;
             // 
             // btnType
             // 
@@ -137,7 +137,7 @@
             this.btnType.Location = new System.Drawing.Point(626, 320);
             this.btnType.Name = "btnType";
             this.btnType.Size = new System.Drawing.Size(162, 57);
-            this.btnType.TabIndex = 9;
+            this.btnType.TabIndex = 8;
             this.btnType.Text = "Xếp loại";
             this.btnType.UseVisualStyleBackColor = true;
             this.btnType.Click += new System.EventHandler(this.btnType_Click);
@@ -148,7 +148,7 @@
             this.btnReset.Location = new System.Drawing.Point(626, 397);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(162, 57);
-            this.btnReset.TabIndex = 10;
+            this.btnReset.TabIndex = 9;
             this.btnReset.Text = "Xóa";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);

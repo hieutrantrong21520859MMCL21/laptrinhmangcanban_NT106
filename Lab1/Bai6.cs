@@ -176,6 +176,7 @@ namespace ThucHanhTuan1
         {
             txtName.Text = string.Empty;
             txtScores.Text = string.Empty;
+            lstStudent.Items.Clear();
         }
     }
 }
