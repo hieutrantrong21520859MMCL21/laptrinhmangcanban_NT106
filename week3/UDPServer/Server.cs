@@ -32,7 +32,7 @@ namespace UDPServer
             thdUDPServer.Start();
         }
 
-        private void btnSend_Click_1(object sender, EventArgs e)
+        private void btnSend_Click(object sender, EventArgs e)
         {
             byte[] message = Encoding.UTF8.GetBytes(txtMessage.Text);
             udpServer.Send(message, message.Length, "127.0.0.1", 11001);
