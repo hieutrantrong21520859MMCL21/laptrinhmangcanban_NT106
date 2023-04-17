@@ -48,11 +48,6 @@ namespace Bai4
 
         private void LoadData(List<Student> students)
         {
-            if (index % 2 == 0)
-            {
-                txtResult.Clear();
-            }
-
             txtResult.Text += students[index].name + "\r\n"
                               + students[index].id + "\r\n"
                               + students[index].phone + "\r\n"
@@ -191,28 +186,32 @@ namespace Bai4
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            Reset();
             index++;
-            if (index + 1 > students.Count)
+            if (index == students.Count)
             {
-                MessageBox.Show($"Danh sach sinh vien chi co toi da {students.Count} trang!");
+                MessageBox.Show($"Danh sach sinh vien chi co toi da {index} trang!");
+                index--;
+                Reset();
             }
             else
             {
+                txtResult.Clear();
                 LoadData(students);
             }
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            Reset();
             index--;
             if (index < 0)
             {
                 MessageBox.Show("Danh sach sinh vien co it nhat 1 trang!");
+                index++;
+                Reset();
             }
             else
             {
+                txtResult.Clear();
                 LoadData(students);
             }
         }
