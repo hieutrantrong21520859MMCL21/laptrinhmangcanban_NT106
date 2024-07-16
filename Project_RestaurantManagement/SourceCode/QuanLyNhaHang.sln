@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacketStructure", "Packet\PacketStructure.csproj", "{45D8AD11-D0E3-482D-8871-03D8192BC8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{3AE2D068-BCAD-4ED0-BA70-CA4B308B5781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{57B012E7-BD4F-4C18-BD4B-B7DA7E7CFF7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D8AD11-D0E3-482D-8871-03D8192BC8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D8AD11-D0E3-482D-8871-03D8192BC8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D8AD11-D0E3-482D-8871-03D8192BC8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D8AD11-D0E3-482D-8871-03D8192BC8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE2D068-BCAD-4ED0-BA70-CA4B308B5781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE2D068-BCAD-4ED0-BA70-CA4B308B5781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE2D068-BCAD-4ED0-BA70-CA4B308B5781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE2D068-BCAD-4ED0-BA70-CA4B308B5781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B012E7-BD4F-4C18-BD4B-B7DA7E7CFF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B012E7-BD4F-4C18-BD4B-B7DA7E7CFF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B012E7-BD4F-4C18-BD4B-B7DA7E7CFF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B012E7-BD4F-4C18-BD4B-B7DA7E7CFF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0DDB90F-0F21-4D29-98C5-5633E855CD7C}
+	EndGlobalSection
+EndGlobal
